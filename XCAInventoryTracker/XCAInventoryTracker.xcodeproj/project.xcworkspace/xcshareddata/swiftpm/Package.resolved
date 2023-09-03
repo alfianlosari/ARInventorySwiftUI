@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "abseil-cpp-binary",
+      "identity" : "abseil-cpp-swiftpm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/google/abseil-cpp-binary.git",
+      "location" : "https://github.com/firebase/abseil-cpp-SwiftPM.git",
       "state" : {
-        "revision" : "bfc0b6f81adc06ce5121eb23f628473638d67c5c",
-        "version" : "1.2022062300.0"
+        "revision" : "06e7506b74bfc47c70f3353e2927ea3e2275230c",
+        "version" : "0.20220623.1"
+      }
+    },
+    {
+      "identity" : "boringssl-swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/firebase/boringssl-SwiftPM.git",
+      "state" : {
+        "revision" : "dd3eda2b05a3f459fc3073695ad1b28659066eab",
+        "version" : "0.9.1"
       }
     },
     {
@@ -46,12 +55,12 @@
       }
     },
     {
-      "identity" : "grpc-binary",
+      "identity" : "grpc-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/google/grpc-binary.git",
+      "location" : "https://github.com/grpc/grpc-ios.git",
       "state" : {
-        "revision" : "f1b366129d1125be7db83247e003fc333104b569",
-        "version" : "1.50.2"
+        "revision" : "6568b62c608c2776da9e8d0842dea4c43993095c",
+        "version" : "1.50.1"
       }
     },
     {
@@ -106,6 +115,15 @@
       "state" : {
         "revision" : "f25867a208f459d3c5a06935dceb9083b11cd539",
         "version" : "1.22.0"
+      }
+    },
+    {
+      "identity" : "usdzscanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/USDZScanner.git",
+      "state" : {
+        "revision" : "d5da079adcf29e22acabc0f713bb9264e44c8938",
+        "version" : "0.2.0"
       }
     }
   ],

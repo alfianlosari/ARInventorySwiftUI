@@ -24,6 +24,9 @@
 		8B74F3C62A7BC58B0046B6B0 /* InventoryItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B74F3C52A7BC58B0046B6B0 /* InventoryItemVM.swift */; };
 		8B74F3C82A7BC58B0046B6B0 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B74F3C72A7BC58B0046B6B0 /* URL+Extension.swift */; };
 		8B74F3CA2A7BC58B0046B6B0 /* USDZItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B74F3C92A7BC58B0046B6B0 /* USDZItemProvider.swift */; };
+		8BC7134A2AA347DA0076FB75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BC713492AA347DA0076FB75 /* GoogleService-Info.plist */; };
+		8BC7134C2AA347EE0076FB75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7134B2AA347EE0076FB75 /* GoogleService-Info.plist */; };
+		8BC7134F2AA34FAD0076FB75 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8BC7134E2AA34FAD0076FB75 /* USDZScanner */; };
 		8BFA32042A767AFF00DAFBFB /* XCAInventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA32032A767AFF00DAFBFB /* XCAInventoryTrackerApp.swift */; };
 		8BFA32082A767B0200DAFBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA32072A767B0200DAFBFB /* Assets.xcassets */; };
 		8BFA320B2A767B0200DAFBFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA320A2A767B0200DAFBFB /* Preview Assets.xcassets */; };
@@ -37,8 +40,6 @@
 		8BFA32302A767BB800DAFBFB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFA322F2A767BB800DAFBFB /* FirebaseFirestore */; };
 		8BFA32322A767BB800DAFBFB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFA32312A767BB800DAFBFB /* FirebaseFirestoreSwift */; };
 		8BFA32342A767BB800DAFBFB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFA32332A767BB800DAFBFB /* FirebaseStorage */; };
-		8BFA32362A767C6100DAFBFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA32352A767C6100DAFBFB /* GoogleService-Info.plist */; };
-		8BFA32382A767C7900DAFBFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA32372A767C7900DAFBFB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		8B74F3C52A7BC58B0046B6B0 /* InventoryItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemVM.swift; sourceTree = "<group>"; };
 		8B74F3C72A7BC58B0046B6B0 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 		8B74F3C92A7BC58B0046B6B0 /* USDZItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZItemProvider.swift; sourceTree = "<group>"; };
+		8BC713492AA347DA0076FB75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BC7134B2AA347EE0076FB75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BFA32002A767AFF00DAFBFB /* XCAInventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAInventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFA32032A767AFF00DAFBFB /* XCAInventoryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerApp.swift; sourceTree = "<group>"; };
 		8BFA32072A767B0200DAFBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,8 +69,6 @@
 		8BFA321B2A767B3000DAFBFB /* XCAInventoryTrackerVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAInventoryTrackerVisionApp.swift; sourceTree = "<group>"; };
 		8BFA321F2A767B3300DAFBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BFA32222A767B3300DAFBFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8BFA32352A767C6100DAFBFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8BFA32372A767C7900DAFBFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				8BFA322A2A767BA800DAFBFB /* FirebaseFirestore in Frameworks */,
 				8BFA322C2A767BA800DAFBFB /* FirebaseFirestoreSwift in Frameworks */,
 				8BFA322E2A767BA800DAFBFB /* FirebaseStorage in Frameworks */,
+				8BC7134F2AA34FAD0076FB75 /* USDZScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,11 +183,11 @@
 		8BFA32022A767AFF00DAFBFB /* XCAInventoryTracker */ = {
 			isa = PBXGroup;
 			children = (
+				8BC713492AA347DA0076FB75 /* GoogleService-Info.plist */,
 				8B74F3BA2A7BC58B0046B6B0 /* Observables */,
 				8B74F3B52A7BC58B0046B6B0 /* Views */,
 				8B74F3A42A7BC56D0046B6B0 /* Info.plist */,
 				8BFA32032A767AFF00DAFBFB /* XCAInventoryTrackerApp.swift */,
-				8BFA32372A767C7900DAFBFB /* GoogleService-Info.plist */,
 				8BFA32072A767B0200DAFBFB /* Assets.xcassets */,
 				8BFA32092A767B0200DAFBFB /* Preview Content */,
 			);
@@ -203,11 +205,11 @@
 		8BFA32162A767B3000DAFBFB /* XCAInventoryTrackerVision */ = {
 			isa = PBXGroup;
 			children = (
+				8BC7134B2AA347EE0076FB75 /* GoogleService-Info.plist */,
 				8BFA321B2A767B3000DAFBFB /* XCAInventoryTrackerVisionApp.swift */,
 				8B74F3C02A7BC58B0046B6B0 /* Observables */,
 				8B74F3BD2A7BC58B0046B6B0 /* Views */,
 				8B74F3A52A7BC58B0046B6B0 /* Info.plist */,
-				8BFA32352A767C6100DAFBFB /* GoogleService-Info.plist */,
 				8BFA321F2A767B3300DAFBFB /* Assets.xcassets */,
 				8BFA32212A767B3300DAFBFB /* Preview Content */,
 				8B74F3C72A7BC58B0046B6B0 /* URL+Extension.swift */,
@@ -259,6 +261,7 @@
 				8BFA32292A767BA800DAFBFB /* FirebaseFirestore */,
 				8BFA322B2A767BA800DAFBFB /* FirebaseFirestoreSwift */,
 				8BFA322D2A767BA800DAFBFB /* FirebaseStorage */,
+				8BC7134E2AA34FAD0076FB75 /* USDZScanner */,
 			);
 			productName = XCAInventoryTracker;
 			productReference = 8BFA32002A767AFF00DAFBFB /* XCAInventoryTracker.app */;
@@ -316,6 +319,7 @@
 			mainGroup = 8BFA31F72A767AFF00DAFBFB;
 			packageReferences = (
 				8BFA32272A767B8600DAFBFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8BC7134D2AA34FAD0076FB75 /* XCRemoteSwiftPackageReference "USDZScanner" */,
 			);
 			productRefGroup = 8BFA32012A767AFF00DAFBFB /* Products */;
 			projectDirPath = "";
@@ -333,8 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFA320B2A767B0200DAFBFB /* Preview Assets.xcassets in Resources */,
+				8BC7134A2AA347DA0076FB75 /* GoogleService-Info.plist in Resources */,
 				8BFA32082A767B0200DAFBFB /* Assets.xcassets in Resources */,
-				8BFA32382A767C7900DAFBFB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +348,7 @@
 			files = (
 				8BFA32232A767B3300DAFBFB /* Preview Assets.xcassets in Resources */,
 				8BFA32202A767B3300DAFBFB /* Assets.xcassets in Resources */,
-				8BFA32362A767C6100DAFBFB /* GoogleService-Info.plist in Resources */,
+				8BC7134C2AA347EE0076FB75 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +522,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCAInventoryTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan objects";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -548,6 +553,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCAInventoryTracker/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to scan objects";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -657,6 +663,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8BC7134D2AA34FAD0076FB75 /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/USDZScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 		8BFA32272A767B8600DAFBFB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -668,6 +682,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8BC7134E2AA34FAD0076FB75 /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BC7134D2AA34FAD0076FB75 /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
+		};
 		8BFA32192A767B3000DAFBFB /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
